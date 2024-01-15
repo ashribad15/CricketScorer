@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Cricket Scorer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+        <header style="background-image: url('Cricket_home_bg_img.jpg')">
+        <div class="header-content">
+            <h1>Online Cricket Scorer</h1>
+          <p><b>Where Every Ball Counts!</b></p>
+        </div>
+      </header>
+  </header>
+  <main>
+    <section id="match-details">
+      <h2>Match Details</h2>
+      <label for="team1">Team 1:</label>
+      <input type="text" id="team1" placeholder="Enter team name">
+      <label for="team2">Team 2:</label>
+      <input type="text" id="team2" placeholder="Enter team name">
+      <button onclick="startMatch()">Start Match</button>
+    </section>
+    <section id="scoreboard" style="display: none;">
+      <h2>Scoreboard</h2>
+      <div id="team1-score">Team 1 Score: 0</div>
+      <div id="team2-score">Team 2 Score: 0</div>
+      <button onclick="updateScore('team1')">Add Run for Team 1</button>
+      <button onclick="updateScore('team2')">Add Run for Team 2</button>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 Gully Cricket Scoring App<br>
+        Made With Love by Ashribad!
+    </p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
