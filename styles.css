@@ -5,23 +5,37 @@ body {
     padding: 0;
   }
   header {
-    background-image: url('cricket-header.jpg');
+    background-image: url('Images/Cricket_home_bg_img.jpg');
     background-size: cover;
-    color: black;
-    
-    padding: 2rem;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+    color: white;
   }
+  
+  .header-content {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .header-content p {
+    font-size: 1.5rem;
+  }
+  
 
   h1 {
     font-size: 4.0rem;
     margin-bottom: 0.5rem;
     
   }
-  header p {
-    font-size: 1.5rem; 
-  }
-
   .p 
   {
     font-size: 1.2rem;
