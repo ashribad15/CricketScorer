@@ -41,32 +41,68 @@ body {
     font-size: 1.2rem;
   }
 
-  .container {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 2rem;
-  }
-  .scoreboard {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 1rem;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-  }
-  .player {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 0.5rem;
-  }
-  .player input {
-    padding: 0.5rem;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-    width: 50%;
-  }
+  /* Match Details Section */
+#match-details {
+  margin-bottom: 20px;
+  margin-left: 5%;
+}
+
+#match-details h2 
+{
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#match-details label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#match-details input {
+  padding: 12px;
+  margin-bottom: 10px;
+}
+
+#match-details button {
+  padding: 10px 20px;
+  background-color: #3db541;
+  font-weight: bolder;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: medium;
+}
+
+#match-details button:hover {
+  background-color: #088e0e;
+}
+
+/* Scoreboard Section */
+#scoreboard {
+  display: none;
+}
+
+#scoreboard h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+#scoreboard div {
+  margin-bottom: 10px;
+}
+
+#scoreboard button {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+#scoreboard button:hover {
+  background-color: #45a049;
+}
+
   footer {
     background-color: #333;
     color: #fff;
